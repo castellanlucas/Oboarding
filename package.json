@@ -1,0 +1,19 @@
+{
+    "name": "onboarding",
+    "version": "1.0.0",
+    "description": "Cadastro de fila de atendimento",
+    "main": "index.js",
+    "scripts": {
+        "cy:run": "npx cypress run",
+        "cy:open": "npx cypress open",
+        "report:merge": "mochawesome-merge > index.json",
+        "report:mocha": "marge index.json"
+    },
+    "devDependencies": {
+        "cypress": "^9.7.0",
+        "cypress-multi-reporters": "^1.6.0",
+        "mochawesome": "^7.1.3",
+        "mochawesome-merge": "^4.2.1",
+        "mochawesome-report-generator": "^6.2.0"
+    }
+}
